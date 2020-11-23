@@ -1,0 +1,220 @@
+a {
+    text-decoration: none;
+}
+.preview {
+    width:100%;
+    /*height:726px;
+    height:735px ;*/ /* Do IE 10 pra baixo*/
+    height:783px;
+    height:792px ; /* Do IE 10 pra baixo*/
+    /*margin-left:auto;
+    margin-right:auto;*/
+    font-family: SansSerif;
+    color: #000000;
+    font-size: 12px;
+    border: 0.14em solid;
+    /*margin-bottom: 40px;*/
+}
+.col-xs-1 {
+    width: 7%;
+}
+.col-xs-3 {
+    width: 22.8%;
+}
+.col-xs-2 {
+    width: 15% !important;
+}
+.col-xs-10 {
+    width: 82% !important;
+}
+.col-xs-4 {
+    width: 32%;
+}
+.col-xs-7 {
+    width: 58% !important;
+}
+.col-xs-8 {
+    width: 68% !important;
+}
+.preview-cancelada {
+    height:760px !important;
+    height:769px  !important; /* Do IE 10 pra baixo*/
+}
+.logo-prefeitura {
+    left:0px;
+    top:0px;
+    width:112px;
+    margin:7px 0px 0px 4px;
+}
+
+div.row-extended {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+
+    padding: 2px !important;
+}
+
+.cabecalho {
+    height: 68px;
+    border-width: 0.11em ;
+    border-style: solid ;
+    border: 0.14em solid;
+}
+
+.nfse {
+    overflow: hidden;
+    font-weight: bold;
+}
+.cinza {
+    background-color: #CCCCCC;
+}
+.pequeno {
+    border: 0.14em solid;
+    min-height: 17px;
+    max-height: 17px;
+    height: 17px !important;
+    font-size: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    word-wrap:break-word;
+    overflow: hidden;
+}
+.grande {
+    border: 0.14em solid;
+    height: 93px;
+    font-size: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.grande2 {
+    border: 0.14em solid;
+    height: 50px;
+    font-size: 8px;
+    padding-left: 3px;
+    padding-right: 3px;
+    overflow: hidden;
+}
+.sem-borda{
+    border: 0;
+}
+.left {
+    text-align: left !important;
+}
+.right {
+    text-align: right !important;
+}
+.center {
+    text-align: center !important;
+}
+div.subtitulo {
+    background-color: #999999;
+    border: 0.14em solid;
+    font-size: 10px;
+}
+.subtitulo-pequeno {
+    background-color: #999999;
+    font-size: 8px;
+}
+.celula-imagem {
+    border: 0.14em solid;
+    left:0px !important;
+    top:0px !important;
+    height:84.5px;
+    width:98.5px;
+    padding-left: 0px !important;
+}
+.imagem {
+    left:0px !important;
+    top:0px !important;
+    margin-top: -2px !important;
+    height:83.5px;
+    width:97px;
+}
+
+.cancelada {
+    border: 0.14em solid;
+    border-color: black;
+    color: red;
+}
+
+.padding-zero {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.tarja-teste {
+    background: red;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 52px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 1024px;
+    height: 58px;
+    line-height: 58px;
+    z-index: 2;
+    position: absolute;
+    top: 618px;
+    right: 317px;
+    -ms-transform: rotate(307deg) scale(1) skew(0deg) translate(0px);
+    transform: rotate(307deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(307deg) scale(1) skew(0deg) translate(0px);
+    -moz-transform: rotate(307deg) scale(1) skew(0deg) translate(0px);
+    -o-transform: rotate(307deg) scale(1) skew(0deg) translate(0px);
+
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); /* IE6+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)"; /* this works in IE8 only */
+    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* for IE8 */
+
+
+}
+.incentivadorCultural {
+    border: 0;
+    border-bottom: 2px;
+    border-style: solid;
+    padding: 1px;
+    margin: -2px;
+}
+
+.incentivadorCultural-value {
+    padding-top: 2px;
+    background-color: rgb(240,240,240);
+    margin: 2px -2px 0px -2px;
+}
+
+.pre {
+    border: none !important;
+    background-color: rgb(240,240,240);
+    font-size: 8px;
+    padding: 0px !important;
+    height: 146px;
+}
+
+/* Menu */
+.toolbarTopo{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #303030;
+    background-image: none;
+    border-image: none;
+    border-left: medium none;
+    border-right: medium none;
+    border-top: 1px solid #0F0F0F;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: white !important;
+    border-top-color: white !important;
+}
+.navbar {min-height:40px !important}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-bottom-color: white;
+    border-top-color: white;
+}
